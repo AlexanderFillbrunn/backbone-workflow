@@ -6,4 +6,6 @@ It implements the following features:
 - Connecting nodes by dragging a connection
 - Panning and Zooming
 
+Try it out [here](https://alexanderfillbrunn.github.io/backbone-workflow/)!
+
 ![Screenshot](/screenshot.png?raw=true)

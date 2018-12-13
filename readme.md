@@ -5,3 +5,5 @@ It implements the following features:
 - Drag & Drop of nodes
 - Connecting nodes by dragging a connection
 - Panning and Zooming
+
+![Screenshot](/screenshot.png?raw=true)

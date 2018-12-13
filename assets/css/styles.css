@@ -1,0 +1,60 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#content {
+  height: 100%;
+  margin-left: 70px;
+}
+
+#workflow {
+  height: 100%;
+  width: 100%;
+}
+
+g.node > rect.bgr {
+  width: 70px;
+  height: 70px;
+  stroke: #777;
+  stroke-width: 2;
+}
+
+g.node > .port {
+  stroke: #777;
+  stroke-width: 1;
+}
+
+g.node > .port.connected {
+  stroke: #777;
+  stroke-width: 3;
+}
+
+g.node > rect.selectMarker {
+  stroke-width: 1;
+  stroke: #333;
+  fill: none;
+  visibility: hidden;
+}
+
+g.node.selected > rect.selectMarker {
+  visibility: visible;
+}
+
+.connection {
+  stroke: #777;
+  stroke-width: 4;
+}
+
+.connection:hover {
+  stroke: #777;
+  stroke-width: 6;
+}
+
+#newConnection {
+  stroke: #777;
+  stroke-width: 4;
+}
